@@ -40,7 +40,7 @@ $(document).on("click", ".searchButton", function () { //other method didn't wor
 
 function giphySearch(searchTerm) { //actual search handling
     $('.gif-div').empty(); //empty out gif div first
-    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + APIKEY + "&limit=10&rating=pg-13"
+    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + APIKEY + "&limit=10&rating=pg-13"
     $.ajax({ //put to gether query url and get
         url: queryURL,
         method: "GET"
