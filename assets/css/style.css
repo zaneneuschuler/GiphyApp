@@ -27,3 +27,8 @@ body{
 h2{
     text-align: center;
 }
+.imgDiv{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
